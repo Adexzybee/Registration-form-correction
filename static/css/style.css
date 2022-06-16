@@ -66,9 +66,10 @@
 .msg{
     background: hsl(248, 32%, 49%);
     color: #fff;
-    padding: 25px;
+    padding: 20px;
     border-radius: 7px;
     margin-bottom: 15px;
+    width: 100%;
 }
 
 .contact-form{
@@ -117,6 +118,10 @@
     .reg-panel{
         flex-direction: column;
         padding: 50px;
+    }
+
+    .form-area{
+        width: 98%;
     }
 
     .reg-text{
